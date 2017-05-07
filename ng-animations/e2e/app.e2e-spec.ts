@@ -1,6 +1,6 @@
 import { NgAnimationsPage } from './app.po';
 
-describe('ng-animations App', () => {
+describe('ng-animations App', function() {
   let page: NgAnimationsPage;
 
   beforeEach(() => {
