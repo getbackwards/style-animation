@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 // import { GoalComponent } from './goal/goal.component';
 import { QuoteComponent } from './quote/quote.component';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     // GoalComponent,
-    QuoteComponent
+    QuoteComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
