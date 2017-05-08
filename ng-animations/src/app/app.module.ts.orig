@@ -1,0 +1,33 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
+import { AppComponent } from './app.component';
+<<<<<<< HEAD
+
+@NgModule({
+  declarations: [
+    AppComponent
+=======
+// import { GoalComponent } from './goal/goal.component';
+import { QuoteComponent } from './quote/quote.component';
+import { AuthorComponent } from './author/author.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    // GoalComponent,
+    QuoteComponent,
+    AuthorComponent
+>>>>>>> 3219477c663b28775d5dcd3932cccccbc41aa03a
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
