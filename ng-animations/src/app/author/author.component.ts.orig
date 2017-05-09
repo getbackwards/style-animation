@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
     h1 {
       margin: 0;
       font-size: 12px;
+<<<<<<< HEAD
+      color: #42ad32;
+=======
       color: #36ab22;
+>>>>>>> 09b28e97602b538c45ec9dd83334b873d9b95bb8
     }
   `]
 })
