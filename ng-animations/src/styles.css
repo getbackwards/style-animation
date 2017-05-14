@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial;
+}
+
 h1 {
   color: tomato;
   font-size: 20px;
+}
+
+app-quote {
+  width: 50%;
 }

@@ -1,3 +1,33 @@
 h1 {
   color: royalblue;
 }
+
+:host {
+  display: block;
+  border: 1px solid #cdcdcd;
+  padding: 2rem;
+}
+
+/* Function form of host */
+:host(.favourite) {
+  border-color: #5cb85c;
+}
+
+:host-context(.boring .very-boring) {
+  border-color: #ccc;
+  color: #ccc;
+}
+
+/*:host-context(.boring .very-boring) /deep/ h1 {*/
+  /*color: #ccc;*/
+/*}*/
+
+/* Alternative way of writing /deep/ */
+:host-context(.boring .very-boring) >>> h1 {
+  color: #ccc;
+}
+
+/*.quote {*/
+  /*border: 1px solid #cdcdcd;*/
+  /*padding: 2rem;*/
+/*}*/
