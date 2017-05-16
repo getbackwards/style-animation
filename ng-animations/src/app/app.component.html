@@ -7,7 +7,9 @@
       <div class="interesting">
         <app-quote
           (click)="isFavourite = !isFavourite"
-          [ngClass]="{'favourite super-favourite': isFavourite}"></app-quote>
+          [ngClass]="{'favourite super-favourite': isFavourite}"
+          [ngStyle]="{'width.px': isFavourite ? '600' : '400'}">
+        </app-quote>
         <!--<app-author></app-author>-->
       </div>
       <div class="boring">
