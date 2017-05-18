@@ -12,7 +12,11 @@
         </app-quote>
         <!--<app-author></app-author>-->
       </div>
-      <div class="boring">
+      <button class="btn btn-primary"
+      (click)="onShowboring(boringBlock)">Show boring Quotes</button>
+      <div class="boring"
+           style="display: none"
+           #boringBlock>
         <div class="very-boring">
           <app-quote></app-quote>
           <!--<app-author></app-author>-->
